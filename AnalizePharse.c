@@ -2,7 +2,7 @@
 void presentingAnArithmeticPharse(char*str)
 {
 	int leng, index = 3;
-	if (RemoveSpaces_CheackInput(str) == 0)
+	if (removeSpacesCheckInput(str) == 0)
 	{
 		printf("UNVALID INPUT\n");
 		return;
