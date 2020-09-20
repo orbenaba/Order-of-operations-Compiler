@@ -1,5 +1,5 @@
-#include"AnalizePharse.h"
-void PresentingAnArithmeticPharse(char*str)
+#include "AnalizePharse.h"
+void presentingAnArithmeticPharse(char*str)
 {
 	int leng, index = 3;
 	if (RemoveSpaces_CheackInput(str) == 0)
@@ -61,7 +61,7 @@ void PresentingAnArithmeticPharse(char*str)
 		}
 	}
 }
-int RemoveSpaces_CheackInput(char*str)
+int removeSpacesCheckInput(char*str)
 {
 	int count = 0, i;
 	for (i = 0; str[i]; i++)
