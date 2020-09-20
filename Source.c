@@ -2,9 +2,7 @@
 #include<stdlib.h>
 #include"poly.h"
 #include"AnalizePharse.h"
-//Student1-OR BEN ABA,id-323092692
-//student2-INBAL MISHAL-323839738
-//group_number: 0061104-64
+
 void Ex1();
 void Ex2();
 
